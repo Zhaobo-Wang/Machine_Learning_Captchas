@@ -21,7 +21,7 @@ def get_file_paths_and_labels(data_dir):
     labels = [list(map(int, os.path.basename(fp).split('_')[0])) for fp in file_paths]
     return file_paths, labels
 
-# Paths to your train and validation folders
+
 train_folder = 'path/to/train/folder'
 val_folder = 'path/to/val/folder'
 
